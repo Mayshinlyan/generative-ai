@@ -24,6 +24,14 @@ Example use cases:
 - **object identification**: using different sources of data to verify if an object exist on a map or at a certain time
 - **multimedia search and retrieval**: finding files that contains an object
 
+## Running Locally
+
+To run the agent locally, follow the steps below:
+
+1. In your terminal or shell run pip install requirements.txt to install necessary packages. Note: This project was built using Python v3.12.8.
+2. Setup credentials to use langchain-google-vertexai by following this [link](https://python.langchain.com/docs/integrations/chat/google_vertex_ai_palm/).
+3. Or create your own .env file to access via API Key and update the .env path in the code.
+
 ## Sample Tests
 
 #### Positive Dog Result
