@@ -29,7 +29,9 @@ Example use cases:
 To run the agent locally, follow the steps below:
 
 1. In your terminal or shell run pip install requirements.txt to install necessary packages. Note: This project was built using Python v3.12.8.
-2. Setup credentials to use langchain-google-vertexai by following this [link](https://python.langchain.com/docs/integrations/chat/google_vertex_ai_palm/).
+2. Setup credentials to use langchain-google-vertexai by following this
+   <a href="https://python.langchain.com/docs/integrations/chat/google_vertex_ai_palm/" target="_blank">link</a>
+
 3. Or create your own .env file to access via API Key and update the .env path in the code.
 
 ## Sample Tests
@@ -115,4 +117,5 @@ The agents agree that there is no dog in the provided files.
 FINAL DECISION: There is no dog in the files.
 ```
 
-_For questions or further collaboration, you can reach out to me here: [link](https://www.mayshinlyan.com/)_
+For questions or further collaboration, you can reach out to me here:
+<a href="https://www.mayshinlyan.com/" target="_blank">link</a>
