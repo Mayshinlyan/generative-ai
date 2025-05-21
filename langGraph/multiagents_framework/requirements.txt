@@ -1,0 +1,6 @@
+python-dotenv==0.21.0
+langchain-core==0.3.47
+langchain-google-vertexai==2.0.16
+langgraph==0.2.76
+langgraph-checkpoint==2.0.21
+
