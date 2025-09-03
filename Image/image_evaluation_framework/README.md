@@ -9,7 +9,7 @@ This repo references industry leading Eval thought leader, Hamel Husain iterativ
 For this MVP Evaluator, we are using the same case study of extracting flat lay product studio images from the ecommerce photos. A simple qualitative metric Good or Bad is used for simpler alignment between LLM as a judge and human evaluators. Good rating is given if the Imagen model correctly extracted the photo in correct branding, design, color, orientation, with no human body parts, and other props. Bad rating is given otherwise.
 
 <p float="middle">
-  <img alt="Evaluation Framework" src="./data/Evaluation Framework.png" width=500 />
+  <img alt="Evaluation Framework" src="./data/Evaluation Framework.png" width="1000" />
 
 </p>
 Credit: Slide from Dave Ebbelaar Gen AI Accelerator
@@ -39,7 +39,7 @@ Ideally we want to have as many test data as time permits and allocate 10% of th
 Human Evals should come before testing with LLM as a Judge. The participating evaluator should be domain experts having skills to correctly evaluate if the generated output is good or bad. Having frontend like the Streamlit front end, *human_image_evaluation.py* will make this job easier. We need to look at these human evaluations and correct any errors that we can fix. These are low hanging fruits to solve before we move on to the next stage: LLM as a Judge.
 
 <p float="middle">
-  <img alt="Streamlit FrontEnd" src="./data/Streamlit Frontend.png" width=1000 />
+  <img alt="Streamlit FrontEnd" src="./data/Streamlit Frontend.png" width="1200" />
 </p>
 
 ### Step 4: Collecting LLM as a Judge Evals
@@ -51,7 +51,7 @@ The same data is then inserted into the LLM evaluator. Ideally this should be th
 Then we would want the metrics from Human Evals and LLM Evals to align as closely as possible. You can use a simple sheet to compare the alignment. See *human_llm_alignment.csv* sample sheet file with actual test data. You would want to conduct multiple iterations to the threshold where you are comfortable.
 
 <p float="middle">
-  <img alt="Human LLM Alignment" src="./data/human_llm_alignment.png" width=500 />
+  <img alt="Human LLM Alignment" src="./data/human_llm_alignment.png" width="1200" />
 </p>
 
 ### Step 6: A/B Testing
