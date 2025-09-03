@@ -1,0 +1,59 @@
+[
+    {
+        "trace_id": "82b45cbc-436f-4265-be3f-89369342b1ad",
+        "input_prompt": "A high-resolution product photograph of the Unisex Zip Through Shacket. The Unisex Zip Through Shacket should be laid flat, perfectly centered, and facing forward against a pure white background. The image needs soft, even studio lighting and a sharp focus on the entire Unisex Zip Through Shacket. Exclude any models, mannequins, hangers, human body part or props.",
+        "product_name": "Unisex Zip Through Shacket",
+        "input_images": [
+            "./data/Unisex Zip Through Shacket/1.png",
+            "./data/Unisex Zip Through Shacket/2.png",
+            "./data/Unisex Zip Through Shacket/3.png"
+        ],
+        "output_images": [
+            "./data/Unisex Zip Through Shacket/Unisex Zip Through Shacket-output.png"
+        ],
+        "product_url": "https://www.johnlewis.com/hay-life-unisex-zip-through-shacket-navy/p112654989#citrusAdId=display_BNj7kNKUAbImJxh_cY8O08b72WQKCwoJMTEyNjU0OTg5EgIIARoMCJeg_MUGEJOo_agCIgIIAQ==",
+        "metadata": "some_value",
+        "human_eval_outcome": "Bad",
+        "human_eval_critique": "jacket is cropped and the human neck is showing. Also the inner t-shirt is showing. ",
+        "llm_eval_outcome": "Bad",
+        "llm_eval_critique": "The studio image does not match the product from the input image. The jacket in the studio image has a different collar design, a horizontal panel across the chest, and a distinct triangular zipper pull, none of which are present in the input image. Additionally, the studio image features a human model, which goes against the guideline for a flat lay studio look."
+    },
+    {
+        "trace_id": "feb8ddf7-cb7a-4953-86fe-c11c54a812e6",
+        "input_prompt": "A high-resolution product photograph of the Anti-Freeze Jacket. The Anti-Freeze Jacket should be laid flat, perfectly centered, and facing forward against a pure white background. The image needs soft, even studio lighting and a sharp focus on the entire Anti-Freeze Jacket. Exclude any models, mannequins, hangers, human body part or props.",
+        "product_name": "Anti-Freeze Jacket",
+        "input_images": [
+            "./data/Anti-Freeze Jacket/1.png",
+            "./data/Anti-Freeze Jacket/2.png",
+            "./data/Anti-Freeze Jacket/3.png"
+        ],
+        "output_images": [
+            "./data/Anti-Freeze Jacket/Anti-Freeze Jacket-output.png"
+        ],
+        "product_url": "https://www.johnlewis.com/montane-anti-freeze-jacket/caper/p112288403#citrusAdId=display_HE6pkKqadaSi9uah5o3BxcMUMSAKCwoJMTEyMjg4NDAzEgIIARoMCJeg_MUGEOzX_qgCIgIIAQ==",
+        "metadata": "some_value",
+        "human_eval_outcome": "Bad",
+        "human_eval_critique": "Human body part showing in the image. Also jean is showing too, ",
+        "llm_eval_outcome": "Good",
+        "llm_eval_critique": "The studio image accurately represents the Men Jacket shown in the input image. The color, puffer design, and 'MONTANE' branding match perfectly. The entire product is visible and the quality and clarity of the image are good. There is no human model in the studio image."
+    },
+    {
+        "trace_id": "520a6caf-38be-43b5-bcf6-24cc544a228c",
+        "input_prompt": "A high-resolution product photograph of the Chelsea Sportsquilt Quilted Jacket,. The Chelsea Sportsquilt Quilted Jacket, should be laid flat, perfectly centered, and facing forward against a pure white background. The image needs soft, even studio lighting and a sharp focus on the entire Chelsea Sportsquilt Quilted Jacket,. Exclude any models, mannequins, hangers, human body part or props.",
+        "product_name": "Chelsea Sportsquilt Quilted Jacket,",
+        "input_images": [
+            "./data/Chelsea Sportsquilt Quilted Jacket/1.png",
+            "./data/Chelsea Sportsquilt Quilted Jacket/2.png",
+            "./data/Chelsea Sportsquilt Quilted Jacket/3.png"
+        ],
+        "output_images": [
+            "./data/Chelsea Sportsquilt Quilted Jacket/Chelsea Sportsquilt Quilted Jacket-output.png"
+        ],
+        "product_url": "https://www.johnlewis.com/barbour-chelsea-sportsquilt-quilted-jacket/olive/p5719850",
+        "metadata": "some_value",
+        "human_eval_outcome": "Bad",
+        "human_eval_critique": "not whole jacket is shown. It is also cropped. Also showing the inside shirt.",
+        "llm_eval_outcome": "Bad",
+        "llm_eval_critique": "The studio image (fifth image) is a close-up that is significantly cropped and does not show the entire jacket, which violates the guideline to 'make sure the entire product is visible and not cropped out'. While the product appears to be the same jacket as in the input image (fourth image) based on its quilted pattern and color, the severe cropping makes it an unsuitable studio image for a complete product view."
+    }
+]

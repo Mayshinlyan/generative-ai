@@ -1,0 +1,29 @@
+[
+  {
+    "user_input_images": [
+      "./data/Unisex Zip Through Shacket/1.png",
+      "./data/Unisex Zip Through Shacket/2.png",
+      "./data/Unisex Zip Through Shacket/3.png"
+    ],
+    "product_name": "Unisex Zip Through Shacket",
+    "product_url": "https://www.johnlewis.com/hay-life-unisex-zip-through-shacket-navy/p112654989#citrusAdId=display_BNj7kNKUAbImJxh_cY8O08b72WQKCwoJMTEyNjU0OTg5EgIIARoMCJeg_MUGEJOo_agCIgIIAQ=="
+  },
+  {
+    "user_input_images": [
+      "./data/Anti-Freeze Jacket/1.png",
+      "./data/Anti-Freeze Jacket/2.png",
+      "./data/Anti-Freeze Jacket/3.png"
+    ],
+    "product_name": "Anti-Freeze Jacket",
+    "product_url": "https://www.johnlewis.com/montane-anti-freeze-jacket/caper/p112288403#citrusAdId=display_HE6pkKqadaSi9uah5o3BxcMUMSAKCwoJMTEyMjg4NDAzEgIIARoMCJeg_MUGEOzX_qgCIgIIAQ=="
+  },
+    {
+    "user_input_images": [
+      "./data/Chelsea Sportsquilt Quilted Jacket/1.png",
+      "./data/Chelsea Sportsquilt Quilted Jacket/2.png",
+      "./data/Chelsea Sportsquilt Quilted Jacket/3.png"
+    ],
+    "product_name": "Chelsea Sportsquilt Quilted Jacket",
+    "product_url": "https://www.johnlewis.com/barbour-chelsea-sportsquilt-quilted-jacket/olive/p5719850"
+  }
+]

@@ -1,4 +1,4 @@
-# Evaluating Products To Extract Product Image for Ecommerce
+# Evaluating Models To Extract Product Image for Ecommerce
 
 ## Problem Space
 How to extract product images from ecommerce pictures?
